@@ -7,7 +7,7 @@ as I really want to avoid nested submodules in my projects.
 
 This repository allows us to build the juce-utils library independantly in an easy way. First checkout recursively:
 
-    git clone https://github.com/christofmuc/juce-util-ci.git
+    git clone --recurse-submodules -j8 https://github.com/christofmuc/juce-util-ci.git
 	
 Then use CMake to build the makefile for Windows (use other generators as you see fit):
 
