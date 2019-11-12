@@ -1,5 +1,9 @@
 # Introduction
 
+[![Build status](https://ci.appveyor.com/api/projects/status/b1hxpghxadkuqakg?svg=true)](https://ci.appveyor.com/project/christofmuc/juce-util-ci)
+
+[![Build status](https://ci.appveyor.com/api/projects/status/b1hxpghxadkuqakg/branch/master?svg=true)](https://ci.appveyor.com/project/christofmuc/juce-util-ci/branch/master)
+
 This is only a super-repository for the CI for my utility library [juce-utils](https://github.com/christofmuc/juce-utils). Go there for more details on the classes offered. This repository is only to build the library separately by the CI,
 as I really want to avoid nested submodules in my projects. 
 
