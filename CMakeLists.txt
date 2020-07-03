@@ -15,7 +15,7 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
 add_subdirectory(third_party/JUCE)
 
 # Select which JUCE modules our little program needs
-set(JUCE_MODULES_NEEDED juce::juce_core juce::juce_data_structures juce::juce_audio_basics juce::juce_audio_devices)
+set(JUCE_MODULES_NEEDED juce::juce_core juce::juce_data_structures juce::juce_audio_basics juce::juce_audio_devices juce::juce_audio_formats)
 
 # Hacking together a fake top level project that I will use to have the Juce CMake system generate the proper headers and includes
 juce_add_console_app(toplevel PRODUCT_NAME "fake")
